@@ -252,3 +252,45 @@
     sprite: Clothing/Belt/militarywebbingert.rsi
   - type: Clothing
     sprite: Clothing/Belt/militarywebbingert.rsi
+
+
+- type: entity
+  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
+  id: ClothingBeltBrigmedicWebbing
+  name: brigmedic chest rig
+  description: A set of tactical webbing worn by Medical workers of security department.
+  components:
+  - type: Sprite
+    sprite: _Wega/Clothing/Belt/brigmedic_webbing.rsi
+  - type: Clothing
+    sprite: _Wega/Clothing/Belt/brigmedic_webbing.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0 # Corvax-Wega-Edit
+  - type: StaticPrice
+    price: 500
+  # Corvax-Wega-Dirtable-start
+  - type: Dirtable
+    dirtState: webbing
+    equippedDirtState: equipped-webbing
+  # Corvax-Wega-Dirtable-end
+
+
+- type: entity
+  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
+  id: ClothingBeltBrigmedicWebbing
+  name: brigmedic belt
+  description: A tactical belt worn by Medical workers of security department.
+  components:
+  - type: Sprite
+    sprite: _Wega\Clothing\Belt\brigmedic_belt.rsi
+  - type: Clothing
+    sprite: _Wega\Clothing\Belt\brigmedic_belt.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0 # Corvax-Wega-Edit
+  - type: StaticPrice
+    price: 500
+  # Corvax-Wega-Dirtable-start
+  - type: Dirtable
+    dirtState: webbing
+    equippedDirtState: equipped-webbing
+  # Corvax-Wega-Dirtable-end

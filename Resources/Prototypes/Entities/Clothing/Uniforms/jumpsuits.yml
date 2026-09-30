@@ -1391,3 +1391,18 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+
+
+- type: entity
+  parent: [BaseCorvaxContraband431JobsBrigmedic, ClothingUniformToggleableBase, ClothingSecurityUniformBase] # Corvax-Contraband + Corvax-Wega
+  id: ClothingUniformJumpsuitBrigmedic
+  name: brigmedic cargo jumpsuit
+  description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day, with different pants.
+  components:
+  - type: Sprite
+    sprite: _Wega\Clothing\Uniforms\Jumpsuit\alt_brigmedic.rsi
+  - type: Clothing
+    sprite: _Wega\Clothing\Uniforms\Jumpsuit\alt_brigmedic.rsi
+  - type: ClothingSterility # Corvax-Wega-Surgery
+  - type: DiseaseProtection # Corvax-Wega-Disease
+    protection: 0.1 # Corvax-Wega-Disease
