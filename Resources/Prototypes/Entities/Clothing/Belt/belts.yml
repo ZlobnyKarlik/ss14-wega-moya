@@ -277,7 +277,7 @@
 
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
-  id: ClothingBeltBrigmedicWebbing
+  id: ClothingBeltBrigmedicBelt
   name: brigmedic belt
   description: A tactical belt worn by Medical workers of security department.
   components:
